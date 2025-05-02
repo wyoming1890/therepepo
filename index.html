@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mandelbrot Set</title>
+<style>
+    /* Remove margin and padding from the body and html */
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden; /* Prevents scrolling */
+      height: 100%; /* Ensures the body covers full viewport height */
+    }
+
+    /* Make canvas full screen with no margin */
+    canvas {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body style="background-color: black; color: white;">
+  <canvas id="myCanvas"></canvas>
+
+  <script src="mandelbrot.js" type="text/javascript"></script>
+</body>
+
+</html>
